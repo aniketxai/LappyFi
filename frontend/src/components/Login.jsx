@@ -113,7 +113,7 @@ const Login = ({ onLogin, toast }) => {
             <div className="logo-icon">
               <Building className="w-6 h-6" />
             </div>
-            <h1 className="logo-text">EcomDash</h1>
+            <h1 className="logo-text">LappyFi</h1>
           </div>
           <h2 className="login-title">
             {isLogin ? 'Welcome Back' : 'Create Account'}
@@ -230,7 +230,6 @@ const Login = ({ onLogin, toast }) => {
               </div>
             </div>
           )}
- <button onClick={getAuthUrl}>Login with Google</button>
           <button 
             type="submit" 
             className="login-btn"
